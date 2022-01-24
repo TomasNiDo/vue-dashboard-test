@@ -1,0 +1,27 @@
+@import "~bulma/sass/utilities/initial-variables";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+$primary: #81C4EE;
+
+@import '~bulma';
+
+* {
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, 
+body {
+  background: #F5F8FF;
+  min-height: 100%;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.username {
+  color: $primary;
+}
